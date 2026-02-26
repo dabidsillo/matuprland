@@ -1,0 +1,47 @@
+{
+    "workbench.activityBar.location": "bottom",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.glyphMargin": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderWhitespace": "none",
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": false,
+
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.linkedEditing": true,
+
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "breadcrumbs.enabled": false,
+    "files.autoSave": "off",
+    "window.commandCenter": false,
+
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "line",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.suggest.enabled": true,
+    "terminal.external.linuxExec": "kitty"
+}

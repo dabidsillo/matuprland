@@ -14,8 +14,9 @@ plugins=(
 	)
 
 source $ZSH/oh-my-zsh.sh
+source /usr/share/nvm/init-nvm.sh
 
-alias install="sudo pacman -S"
+alias install="sudo pacman -S --needed"
 alias remove="sudo pacman -Rns"
 alias update="sudo pacman -Syu"
 alias search="pacman -Ss"
