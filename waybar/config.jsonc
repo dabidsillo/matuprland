@@ -6,7 +6,7 @@
 
   "modules-left": ["clock", "hyprland/workspaces"],
   "modules-center": ["tray"],
-  "modules-right": ["pulseaudio", "network", "battery"],
+  "modules-right": ["pulseaudio", "network", "power-profiles-daemon", "battery"],
 
   "clock": {
     "format": "{:%H:%M}",
@@ -33,7 +33,8 @@
     "format-bluetooth": "   {volume}%",
     "format-muted": "",
     "format-icons": {
-      "default": ["", ""]
+      "default": ["", ""],
+      "headphone": ""
     },
     "scroll-step": 5,
     "on-click": "pavucontrol"
@@ -46,13 +47,19 @@
     "format-disconnected": ""
   },
 
+  "power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power profile: {profile}",
+    "tooltip": true,
+    "format-icons": {
+      "performance": "",
+      "balanced": "",
+      "power-saver": ""
+    }
+  },
+
   "battery": {
     "interval": 60,
-    "states": {
-      "warning": 20,
-      "critical": 10
-    },
-    "format": "{icon}   {capacity}%",
-    "format-icons": ["", "", "", "", ""]
+    "format": "{capacity}%"
   }
 }

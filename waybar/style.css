@@ -63,12 +63,25 @@ tooltip label {
 #clock,
 #pulseaudio,
 #network,
-#battery {
+#battery,
+#power-profiles-daemon {
   background-color: rgba(0, 0, 0, 0.5);
   color: @primary;
   padding: 0 15px 0 15px;
   margin: 0 0 0 6px;
   border-radius: 50px;
+}
+
+#power-profiles-daemon {
+  border-radius: 50px 0 0 50px;
+  padding-right: 0;
+}
+
+#battery {
+  border-radius: 0 50px 50px 0;
+  padding-left: 8px;
+  margin-left: 0;
+  
 }
 
 #clock {
